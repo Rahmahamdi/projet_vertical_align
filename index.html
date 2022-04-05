@@ -2,57 +2,30 @@
 <html lang="fr" dir="ltr">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="cours html formulaire">
-        <title>Formulaire</title>
+        <meta name="description" content="align box">
+        <title>Vertical align box with "transform : translateY"</title>
         <link rel="icon" type="image/png" href="./asset/icon.ico">    
-        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <link rel="stylesheet" href="./css/main.css" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      </head>
         
-    </head>
-    <body>
-        <header>
-            <h1>
-
-                <i class="material-icons" aria-hidden="true" ></i>
-                   send
-                Formulaire d'inscription étudiant
-            </h1>
-        </header>
-        <main>
-            <fieldset> 
-                <legend>
-                    Inscrition étudiant
-                </legend>
-                <form action="index.html" méthode="get">
-                    <label for="nom">
-                        Votre nom
-                    </label>
-                    <input type="text" id="nom" name="nom" placeholder="votre nom" autofocus required aria-required="true">
-
-                    <label for="prenom">
-                        Votre prenom
-                    </label>
-                    <input type="text" id="prenom" name="prenom" placeholder="votre prenom" required aria-required="true" >
-                    
-                    <label for="date">
-                        Votre date de naissance
-                    </label>
-                    <input type="text" id="date" name="date_naissance" placeholder="date de naissance" required aria-required="true" >
-                    
-                    <label for="phone">
-                        Téléphone
-                    </label>
-                    <input type="tel" id="phone" name="phone" placeholder="votre Téléphone" required aria-required="true" >
-                    <small>Format: (+33)01-75-22-15-45
-                    </small>
-                    <input type="submit" value="Envoyer">
-                </form>
-            </fieldset>
-            <footer>
-                <p>
-                    &copy; - formulaire étudiant -2022
-                </p>
-            </footer>
-        </main>
-    </body>
+<body>
+  <header>
+ 
+    <h1>Vertical align box with "transform : translateY"</h1>
+  </header>
+  <main>
+	<div class="main-div">
+        <div class="vertical-center">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+    </div>
+     
+  </main>
+  <footer>
+    <p>
+    &copy; - Vertical align box -2022
+    </p>
+  </footer>
+</body>
 </html>
