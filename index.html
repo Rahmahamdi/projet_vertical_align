@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="cours html formulaire">
+        <title>Formulaire</title>
+        <link rel="icon" type="image/png" href="./asset/icon.ico">    
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <h1>
+
+                <i class="material-icons" aria-hidden="true" ></i>
+                   send
+                Formulaire d'inscription étudiant
+            </h1>
+        </header>
+        <main>
+            <fieldset> 
+                <legend>
+                    Inscrition étudiant
+                </legend>
+                <form action="index.html" méthode="get">
+                    <label for="nom">
+                        Votre nom
+                    </label>
+                    <input type="text" id="nom" name="nom" placeholder="votre nom" autofocus required aria-required="true">
+
+                    <label for="prenom">
+                        Votre prenom
+                    </label>
+                    <input type="text" id="prenom" name="prenom" placeholder="votre prenom" required aria-required="true" >
+                    
+                    <label for="date">
+                        Votre date de naissance
+                    </label>
+                    <input type="text" id="date" name="date_naissance" placeholder="date de naissance" required aria-required="true" >
+                    
+                    <label for="phone">
+                        Téléphone
+                    </label>
+                    <input type="tel" id="phone" name="phone" placeholder="votre Téléphone" required aria-required="true" >
+                    <small>Format: (+33)01-75-22-15-45
+                    </small>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </fieldset>
+            <footer>
+                <p>
+                    &copy; - formulaire étudiant -2022
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>
